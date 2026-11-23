@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emploi du temps de la semaine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Emploi du temps de la semaine</h1>
+<p class="sub" id="sub">Coche chaque tâche quand elle est terminée.</p>
+<div class="top">
+  <button type="button" id="edit" hidden>Modifier</button>
+  <button type="button" id="save" class="main" hidden>Enregistrer</button>
+  <button type="button" id="cancel" hidden>Annuler</button>
+</div>
+<div id="prog"><div class="bar"><i id="bar"></i></div><div class="count" id="count"></div></div>
+<div class="msg" id="msg" role="status"></div>
+<div id="days"></div>
+<div id="viewfoot"><button type="button" id="reset">Tout décocher</button>
+<p class="note">Week-end : rattraper ce qui n’a pas été terminé pendant la semaine.</p></div>
+<button type="button" id="addday" hidden>Ajouter un jour</button>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
