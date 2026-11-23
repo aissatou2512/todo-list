@@ -1,21 +1,20 @@
-# Sottina
+# To-do List
 
-Sottina is a simple web application designed to help students keep track of their academic progress and organize their studies.
+A simple to-do list web application built to practice front-end development and JavaScript.
 
 ### Features
-- Track progress for each subject
-- Update and save progress
-- Manage weekly schedules
-- Keep track of important deadlines
-- Responsive interface
+- Add tasks
+- Mark tasks as completed
+- Delete tasks
+- Organize daily tasks
 
 ### Built with
 - HTML
 - CSS
 - JavaScript
 
-### Live demo
-https://sottina.vercel.app/
+### Live Demo
+https://todolist-ayba.vercel.app/
 
 ### Author
 Aïssatou Ba — [GitHub](https://github.com/aissatou2512)
